@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: rgb(245, 245, 248);
+}
+
+/* header section */
+.header{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: .5% 6%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px .2px;
+}
+
+nav img{
+    width: 150px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* bud section */
+.bud{
+    padding: 50px;
+    /* background: rgb(241, 234, 234); */
+    
+}
+
+.divide{
+    display: flex;
+    /* padding: 10px; */
+    justify-content: space-between;
+    margin: auto;
+    background: #fff;
+    width: 40vw;
+    height: 70vh;
+    /* padding-top: 20px; */
+}
+
+.split{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.sec-1{
+    padding-top: 40px;
+}
+
+.sec-1 p{
+    padding-bottom: 15px;
+}
+
+.sec-1 label{
+    padding-bottom: 15px;
+}
+
+.sec-1 input{
+    padding-bottom: 15px;
+    padding-right: 200px;
+
+}
+.up{
+    display: flex;
+    padding-bottom: 20px;
+}
+label{
+    color: rgb(90, 88, 88);
+}
+.jus-1{
+    margin-left: 10px;
+}
+.up input{
+    border: 0;
+    border-radius: 2px;
+    padding: 10px;
+    background: rgb(245, 245, 248);
+}
+
+input{
+    border: 0;
+    border-radius: 2px;
+    padding: 10px;
+    background: rgb(245, 245, 248);
+}
+
+
+.btn-long{
+    padding: 10px 120px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    background: rgb(101, 169, 150);
+}
+
+.btn, button{
+    text-align: center;
+    border: 0;
+    border-radius: 3px;
+}
+
+button{
+    font-size: 10px;
+    background-color: rgb(181, 176, 176);
+}
+
+.lit{
+    background: rgb(104, 152, 214);
+    padding: 40px;
+    width: 30%;
+    color: rgb(244, 235, 235);
+}
+
+.lit p{
+    padding-bottom: 20px;
+}
+
+ul li{
+    line-height: 40px;
+    list-style: none;
+}
+
+ul li i{
+    padding: 5px; 
+    border: 1px solid; 
+    border-radius: 20px;
+    
+}
+
+.horizon{
+    padding-top: 50px;
+    border-bottom: 1px solid #fff;
+}
+
+@media(max-width: 1231px){
+    .bud{
+        padding: 20px;
+        /* background: rgb(241, 234, 234); */
+        
+    }
+    
+    .divide{
+        display: grid;
+        /* padding: 10px; */
+        justify-content: center;
+        margin: auto;
+        background: #fff;
+        width: 400;
+        height: 140vh;
+        /* padding-top: 20px; */
+    }
+
+    .lit{
+        background: rgb(104, 152, 214);
+        padding: 40px;
+        width: 73%;
+        height: 65vh;
+        color: rgb(244, 235, 235);
+        text-align: left;
+        margin: 20px;
+    }
+}
